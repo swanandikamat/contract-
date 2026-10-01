@@ -1,0 +1,38 @@
+[
+  {
+    "expected_type": "CLEAN",
+    "filename": "TEST-CLEAN-01_Cloud_Services_Agreement.docx",
+    "risk_score": 30.0,
+    "classification": "CLEAN / LOW RISK",
+    "is_problematic": false,
+    "flagged_count": 2,
+    "flagged_clauses": []
+  },
+  {
+    "expected_type": "CLEAN",
+    "filename": "TEST-CLEAN-02_Professional_Consulting_Agreement.docx",
+    "risk_score": 25.0,
+    "classification": "PROBABLE ISSUES / HIGH RISK",
+    "is_problematic": true,
+    "flagged_count": 1,
+    "flagged_clauses": []
+  },
+  {
+    "expected_type": "PROB",
+    "filename": "TEST-PROB-01_Cloud_Services_Agreement.docx",
+    "risk_score": 70.0,
+    "classification": "PROBABLE ISSUES / HIGH RISK",
+    "is_problematic": true,
+    "flagged_count": 4,
+    "flagged_clauses": []
+  },
+  {
+    "expected_type": "PROB",
+    "filename": "TEST-PROB-02_Professional_Consulting_Agreement.docx",
+    "risk_score": 15.0,
+    "classification": "CLEAN / LOW RISK",
+    "is_problematic": false,
+    "flagged_count": 1,
+    "flagged_clauses": []
+  }
+]

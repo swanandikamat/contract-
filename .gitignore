@@ -1,0 +1,38 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+ENV/
+node_modules/
+frontend/dist/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environment variables & API keys (CRITICAL - DO NOT COMMIT SECRETS)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Data directory security (protect contract privacy & proprietary docs)
+data/raw/*
+!data/raw/clean/.gitkeep
+!data/raw/prob/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/reference/*
+!data/reference/.gitkeep
+data/vector_db/
+
+# Operating system & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
